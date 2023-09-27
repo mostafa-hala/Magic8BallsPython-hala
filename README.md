@@ -19,10 +19,12 @@ Using the following nine possible answers for our Magic 8-Ball:
 
 The output of the program will have the following format:
 > [Name] asks: [Question]
+> 
 > Magic 8-Ball’s answer: [Answer]
 
 For example:
 > Joe asks: Is this real life?
+> 
 > Magic 8-Ball's answer: Better not tell you now
 
 
@@ -40,6 +42,7 @@ But first, let’s import this module so we can use its functions. Add this line
 `import random`
 5. Next, we’ll create a variable to store the randomly generated value. Declare a variable called *random_number*, and assign it to the function call:
 > random.randint(1, 9)
+
 which will generate a random number between `1` (inclusive) and `9` (inclusive).
 Next, add a `print()` statement that outputs the value of **random_number**, and run the program several times to ensure random values are being generated as expected.
 Once you’re sure this is working as we expected, feel free to comment out this `print()` statement.
