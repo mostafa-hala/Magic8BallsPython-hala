@@ -7,15 +7,15 @@ Write a magic8.py Python program that can answer any “Yes” or “No” quest
 
 Using the following nine possible answers for our Magic 8-Ball:
 
-⋅⋅* Yes - definitely
-..* It is decidedly so
-..* Without a doubt
-..* Reply hazy, try again
-..* Ask again later
-..* Better not tell you now
-..* My sources say no
-..* Outlook not so good
-..* Very doubtful
+..*Yes - definitely
+..*It is decidedly so
+..*Without a doubt
+..*Reply hazy, try again
+..*Ask again later
+..*Better not tell you now
+..*My sources say no
+..*Outlook not so good
+..*Very doubtful
 
 The output of the program will have the following format:
 > [Name] asks: [Question]
