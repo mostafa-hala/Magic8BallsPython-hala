@@ -31,7 +31,7 @@ For example:
 2. Next, declare a variable **question**, and assign it to a _“Yes”_ or _“No”_ question you’d like to ask the Magic 8-Ball.
 3. We want to store the answer of the Magic 8-Ball in another variable, which we’ll call **answer**. For now, assign this variable to an _empty string_.
 
-**Generating a random number**
+### Generating a random number
 
 4. In order for the answer to be different each time we run the program, we will utilize randomly generated values.
 *Note:* This will be something new! But don’t worry, we will try to explain this topic thoroughly and also supply the code.
@@ -44,7 +44,7 @@ which will generate a random number between `1` (inclusive) and `9` (inclusive).
 Next, add a `print()` statement that outputs the value of **random_number**, and run the program several times to ensure random values are being generated as expected.
 Once you’re sure this is working as we expected, feel free to comment out this `print()` statement.
 
-**Control Flow**
+### Control Flow
 6. Now that we’ve declared all the variables needed, it’s time to implement the core logic of our program!
 For this section, we’ll be utilizing control flow using an `if/elif/else statement` to assign different answers for each randomly generated value.
 First, write an `if` statement where if the **random_number** is equal to `1`, **answer** is assigned to the phrase _“Yes - definitely”_
