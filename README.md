@@ -64,23 +64,31 @@ Recall that the 9 possible answers of the Magic 8-Ball are:
 8. Following the `if/elif` statements, add an `else` statement that will set *answer* to the string _“Error”_, if the number was accidentally assigned a value outside of our range.
 9. Now, let’s see our program in action! Write a `print()` statement to output the asker’s name and their question, which should be in the following format:
 > [Name] asks: [Question]
+
 For example, when we run the program, the output should look something like:
 > Joe asks: Will I win the lottery?
+
 10. Add a second `print()` statement that will output the Magic 8-Ball’s answer in the following format:
 > Magic 8-Ball's answer: [answer]
+
 For example, when running the program it should look something like:
 > Magic 8-Ball's answer: My sources say no
+
 11. Great job! You’ve successfully utilized your knowledge of conditionals and previous fundamental Python concepts to create a program that generates different fortunes.
 Run your program several times to see that it’s working as expected.
-12. If you’re up for some more challenges, try implementing the following features to your program.
+
+13. If you’re up for some more challenges, try implementing the following features to your program.
 So far, the Magic 8-Ball provides 9 possible fortunes. Try to add a few more possible answers to the program.
 To do this, you will need to increase the range of randomly generated numbers and add additional elif statements for each new answer.
-13. What if the asker does not provide a name, such that the value of name is an empty string? If the name string is empty, the output of the program looks like the following:
+14. What if the asker does not provide a name, such that the value of name is an empty string? If the name string is empty, the output of the program looks like the following:
 > asks: Will I win the lottery?
+
 > Magic 8 Ball's answer: Outlook not so good
+
 As you can see, the formatting of the output can use some improvement when there is no name provided.
 We can address this by printing out just the question, such that it looks like the following:
 > Question: Will I win the lottery?
+
 > Magic 8-Ball's answer: Outlook not so good
 
 You can implement this by creating an `if/else` statement such that:
