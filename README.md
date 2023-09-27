@@ -6,7 +6,7 @@ The Magic 8-Ball is a popular toy developed in the 1950s for fortune-telling or 
 Write a magic8.py Python program that can answer any “Yes” or “No” question with a different fortune each time it executes.
 
 Using the following nine possible answers for our Magic 8-Ball:
-..* Yes - definitely
+⋅⋅* Yes - definitely
 ..* It is decidedly so
 ..* Without a doubt
 ..* Reply hazy, try again
@@ -19,6 +19,7 @@ Using the following nine possible answers for our Magic 8-Ball:
 The output of the program will have the following format:
 > [Name] asks: [Question]
 > Magic 8-Ball’s answer: [Answer]
+
 For example:
 > Joe asks: Is this real life?
 > Magic 8-Ball's answer: Better not tell you now
