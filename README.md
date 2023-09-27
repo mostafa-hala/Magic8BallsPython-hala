@@ -32,6 +32,7 @@ For example:
 3. We want to store the answer of the Magic 8-Ball in another variable, which we’ll call **answer**. For now, assign this variable to an _empty string_.
 
 **Generating a random number**
+
 4. In order for the answer to be different each time we run the program, we will utilize randomly generated values.
 *Note:* This will be something new! But don’t worry, we will try to explain this topic thoroughly and also supply the code.
 In Python, we can use the `.randint()` function from the random module to generate a random number from a range.
