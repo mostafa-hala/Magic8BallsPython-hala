@@ -7,15 +7,15 @@ Write a magic8.py Python program that can answer any “Yes” or “No” quest
 
 Using the following nine possible answers for our Magic 8-Ball:
 
-..*Yes - definitely
-..*It is decidedly so
-..*Without a doubt
-..*Reply hazy, try again
-..*Ask again later
-..*Better not tell you now
-..*My sources say no
-..*Outlook not so good
-..*Very doubtful
+* Yes - definitely
+* It is decidedly so
+* Without a doubt
+* Reply hazy, try again
+* Ask again later
+* Better not tell you now
+* My sources say no
+* Outlook not so good
+* Very doubtful
 
 The output of the program will have the following format:
 > [Name] asks: [Question]
@@ -54,15 +54,15 @@ First, write an `if` statement where if the **random_number** is equal to `1`, *
 7. Next, write an `elif` statement after the `if` statement where if the **random_number** is equal to `2`, **answer** is assigned to the phrase _“It is decidedly so”_.
 Then, continue writing elif statements for each of the remaining phrases for the values `3` to `9`.
 Recall that the 9 possible answers of the Magic 8-Ball are:
-..* Yes - definitely
-..* It is decidedly so
-..* Without a doubt
-..* Reply hazy, try again
-..* Ask again later
-..* Better not tell you now
-..* My sources say no
-..* Outlook not so good
-..* Very doubtful
+* Yes - definitely
+* It is decidedly so
+* Without a doubt
+* Reply hazy, try again
+* Ask again later
+* Better not tell you now
+* My sources say no
+* Outlook not so good
+* Very doubtful
 
 8. Following the `if/elif` statements, add an `else` statement that will set *answer* to the string _“Error”_, if the number was accidentally assigned a value outside of our range.
 9. Now, let’s see our program in action! Write a `print()` statement to output the asker’s name and their question, which should be in the following format:
